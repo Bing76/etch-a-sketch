@@ -24,25 +24,27 @@ button {
     background-color: rgb(182, 182, 182);
 }
 
-.col {
-    border: 1px solid black;
-    background-color: white;
-    width: 24px;
-    height: 24px;
-    flex: none;
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 1px;
     justify-content: center;
     align-items: center;
     padding: 24px;
     background-color: lightgrey;
+    width: 960px;
+    height: 960px;
 }
 
 .row {
     display: flex;
-    gap: 1px;
 }
+
+.col {
+    background-color: white;
+}
+
