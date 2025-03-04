@@ -10,6 +10,12 @@ for (let i = 0; i < 16; i++) {
     for (let j = 0; j < 16; j++) {
         const col = document.createElement("div");
         col.setAttribute("class", "col");
+
+        // Trail effect
+        col.addEventListener("mouseover", () => {
+            col.style.backgroundColor = "black";
+        })
+
         row.appendChild(col);
     }
 
