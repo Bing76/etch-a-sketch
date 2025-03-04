@@ -1,5 +1,5 @@
 .row .col {
-    background-color: red;
+    border: 1px solid black;
     width: 24px;
     height: 24px;
     flex: none;
@@ -8,13 +8,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 1px;
     justify-content: center;
     align-items: center;
-    height: 600px;
 }
 
 .row {
     display: flex;
-    gap: 2px;
+    gap: 1px;
 }
